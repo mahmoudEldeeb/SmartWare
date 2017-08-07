@@ -1,0 +1,50 @@
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.m_eldeeb.smartware.Portfolio"
+    android:background="@color/background">
+
+    <LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40dp">
+
+        <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Portfolio"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The publication's sources say that could happen as soon as Facebook's F8 conference next spring. One potential feature is an auto-scanning camera that'd lock in on individual people in a room, a la how Microsoft's Kinect works."
+        android:textSize="15dp"
+        android:layout_gravity="start"
+        android:textAlignment="textStart"
+        android:textColor="#000"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="5dp"
+        />
+</LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/res"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+
+        />
+
+</LinearLayout>
