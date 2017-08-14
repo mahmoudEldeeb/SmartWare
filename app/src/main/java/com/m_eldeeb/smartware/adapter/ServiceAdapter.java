@@ -33,9 +33,18 @@ public class ServiceAdapter extends RecyclerView.Adapter<ServiceAdapter.ViewHold
 
     @Override
     public void onBindViewHolder(ServiceAdapter.ViewHolder holder, int position) {
-      /*  holder.name.setText(marketList.get(position).getMarketName());
+      switch (position) {
+          case 0:holder.title.setText(R.string.android);
+              holder.desc.setText(R.string.android_desc);
+              break;
+          case 1:holder.title.setText(R.string.web);
+              holder.desc.setText(R.string.web_desc);
+              break;
+          case 2:holder.title.setText(R.string.design);
+              holder.desc.setText(R.string.design_desc);
+              break;
+      }
 
-        holder.logo.setImageResource(marketList.get(position).getImage());*/
     }
 
     @Override
@@ -51,7 +60,9 @@ public class ServiceAdapter extends RecyclerView.Adapter<ServiceAdapter.ViewHold
 
         public ViewHolder(View itemView) {
             super(itemView);
+title= (TextView) itemView.findViewById(R.id.title);
 
+            desc= (TextView) itemView.findViewById(R.id.desc);
             itemView.setOnClickListener(this);
 
 

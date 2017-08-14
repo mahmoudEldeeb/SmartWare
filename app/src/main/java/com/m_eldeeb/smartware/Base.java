@@ -1,6 +1,7 @@
 package com.m_eldeeb.smartware;
 
 import android.app.Service;
+import android.content.Intent;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -20,7 +21,10 @@ import android.view.ViewGroup;
 
 import android.widget.TextView;
 
-public class Base extends AppCompatActivity {
+import com.m_eldeeb.smartware.interfaces.Communication;
+import com.m_eldeeb.smartware.models.PortfolioModel;
+
+public class Base extends AppCompatActivity implements Communication {
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -55,14 +59,7 @@ public class Base extends AppCompatActivity {
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+
 
     }
 
@@ -87,6 +84,45 @@ public class Base extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onClick(int i) {
+        Intent intent=new Intent(Base.this,CourseContent.class);
+        switch (i){
+            case 0:
+                intent.putExtra("course","android");
+                intent.putExtra("content",R.string.android_content);break;
+            case 1:
+                intent.putExtra("course","wb development (php)");
+                intent.putExtra("content",R.string.php_content);break;
+            case 2:
+                intent.putExtra("course","graphic design");
+                intent.putExtra("content",R.string.web_content);break;
+            case 3:
+                intent.putExtra("course","web development (asp.net)");
+                intent.putExtra("content",R.string.web_content);break;
+            case 4:
+                intent.putExtra("course","web design");
+                intent.putExtra("content",R.string.webdesign_content);break;
+        }
+        startActivity(intent);
+    }
+
+    @Override
+    public void onClick(String i) {
+        Intent intent=new Intent(Base.this,PortfolioDetails.class);
+
+        intent.putExtra("content",i);
+        startActivity(intent);
+    }
+
+    @Override
+    public void onClick(PortfolioModel m) {
+        Intent intent=new Intent(Base.this,PortfolioDetails.class);
+
+        intent.putExtra("portfolio",m);
+        startActivity(intent);
     }
 
 

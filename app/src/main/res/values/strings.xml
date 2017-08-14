@@ -2,8 +2,669 @@
     <string name="app_name">Smart Ware</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
-    <string name="title_activity_base">Base</string>
+    <string name="title_activity_base">Smart Ware</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+<string name="BASE_URL">http://magazine1994.esy.es/</string>
+    <string name="web_desc">
+        our cerrtified team of developers has expertised to build web application that are complex business processes , need to functions as per business processes and work for the end customer to achieve customer projects.</string>
+    <string name="web">WEB APPLICATIONS</string>
+    <string name="android">MOBILE APPLICATIONS</string>
+    <string name="android_desc">
+        we will create user friendly and engaging mobile
+        apps for android devices ,
+        we develop mobile applicationss for both brave startups
+        and established enterprises that have brilliant
+        ideas and want to reach new customers by going mobile
+        we develop  </string>
+    <string name="design">DESIGN UI UX</string>
+    <string name="design_desc">
+        we will erase boundaries between  the user interface and the user experience , as an application development company we design both stunning and intuitive appa using modern
+        technologies that keep the user\'s attention long time .</string>
+
+
+    <string name="web_content">Getting started :-\n
+•	C# essential language features\n
+•	Revelution of ASP.net \n
+•	ASP.net web forms for fast applications\n
+•	ASP.net MVC for large applications \n
+•	Example of ASP.net web forms \n
+•	Example of ASP.net MVC\n
+
+Getting started with ASP.net web forms :-\n
+•	Working with Web Forms Creating the Example Project Understanding the Web Form File 
+                 Using Code Nuggets \n
+                 Understanding Programmable HTML Elements \n
+                 Understanding Controls \n
+•	Understanding Code-Behind Classes \n
+                 Avoiding Duplication in Code-Behind Classes \n
+•	Understanding How a Web Form Works \n
+                Handling Programmable HTML Elements \n
+                Compiling the Web Form \n
+•	Using Master Pages\n
+  Configuring Master Pages \n
+               Understanding Master Page Placeholders \n
+               Applying the Master Page \n
+               Using the Master Page Code-Behind Class \n
+               Nesting Master Pages \n
+Forms and Controls \n
+•	Working with Controls \n
+           Preparing the Example Project \n
+           Understanding Controls \n
+             Understanding the Base Control Class\n 
+             Using Controls for Programmatic Access to HTML Elements \n
+             Using Custom Controls to Generate Fragments of HTML \n
+             Using Custom Server Controls \n
+             Using Controls to Display Data \n
+             Using Controls to Model Desktop Development \n
+•	Working with the Control Hierarchy \n
+           Navigating the Control Hierarchy \n
+             Locating and Manipulating Controls in the Hierarchy \n
+             Adding Controls Programmatically \n
+•	Putting It All Together \n
+Removing the Rich UI Controls \n
+Forms and Request Validation \n
+•	Preparing the Example Project \n
+              Adding jQuery \n
+•	Understanding the Server-Side Form Element \n
+Using the DefaultButton and DefaultFocus Properties \n
+•	Detecting Form Posts and Postbacks \n
+Looking for Form Data in the Query String \n
+             Checking for POST Requests \n
+•	Working with Form Data \n
+•	Understanding the One-Form Limit \n
+•	Understanding Request Validation \n
+             Using Eager Request Validation\n 
+             Using Lazy Request Validation \n
+             Using Unvalidated Form Data \n
+             Request Validation in Controls\n 
+
+Stateful Controls \n
+•	Preparing the Example Project \n
+Registering and Applying the User Control\n 
+•	Understanding Statelessness and the Control Lifecycle \n
+             Using Session State \n
+             Adding State through Form Elements \n
+             Using View State \n
+             Using Control State\n 
+•	Managing Application View State \n
+Configuring Application View State \n
+             Configuring Web Form and Control View State \n
+             Configuring Control View State \n
+
+Server-Side HTML Elements \n
+•	Preparing the Example Project\n 
+•	Understanding Server-Side Elements \n
+             Using the Base Class Features \n
+             Using Container Elements\n
+•	Working with Page Structure Elements\n 
+•	Working with Form Elements \n
+             Working with the input Element\n
+             Working with Other Form Elements \n
+•	Working with HTML Tables \n
+             Enumerating the Table \n
+             Working with Specific Table Elements \n
+             Creating Tables Programmatically \n
+•	Working with Other Elements\n
+Data Binding and Model Binding\n
+Basic Data Controls , Complex Data Controls\n
+Other ASP.NET Controls \n
+•	Preparing the Example Application \n
+•	Working with the Rich UI Controls \n
+            Rich UI Controls Are Unnecessary Abstractions\n 
+            Rich UI Controls Modify Element Behavior \n
+            Rich UI Controls Rely on C# Events \n
+            Rich UI Controls Are Styled Directly\n 
+•	Selecting a Rich UI Control\n
+           Understanding Core Rich UI Control Features \n
+•	Using the Odds-and-Ends Controls \n
+             Using the Literal Control \n
+             Using the PlaceHolder Control \n
+             Using the MultiView Control \n
+
+ADO.net Working with Databases\n
+
+Client-Side Development \n
+•	Managing Scripts and Styles\n 
+•	Preparing the Example Project\n 
+•	Understanding Script Management Issues\n
+            Managing JavaScript File Versioning \n
+             Managing Library Dependencies \n
+             Managing Minification \n
+•	Using Bundles  \n
+             Preparing the Project for Bundles \n
+             Creating a Script Bundle\n 
+             Creating a Style Bundle \n
+•	Using Bundling Optimizations \n
+             Using Local Optimization \n
+             Using Content Delivery Networks \n
+•	Ensuring Libraries Are Available for Controls \n
+
+Ajax and Web Services \n
+•	Preparing the Example Project \n
+•	Creating Web Services Using Web API \n
+             Understanding the Goal \n
+             Creating the Web API Controller  \n
+             Creating the Routing Configuration \n
+             Testing the Web Service \n
+             Implementing the Controller Methods \n
+•	Consuming the Web Service \n
+             Dealing with Model Validation Errors \n
+•	Dealing with Event Validation \n
+             Disabling Event Validation \n
+             Replacing the Control ...\n
+Client-Side Validation \n
+•	Preparing the Example Project \n
+             Installing the JavaScript Packages \n
+             Creating the Validation Script Bundle \n
+•	Using HTML5 Validation \n
+•	Using the Built-In Validation Controls \n
+•	Applying Validation Attributes Directly \n
+             Defining the Validation Policy \n
+•	Removing Validation Policy Duplication \n
+•	Putting It All Together \n
+             Updating the Web Service \n
+             Updating the Model Object \n
+             Creating the JavaScript \n
+
+Targeting Mobile Devices\n
+•	Identifying Mobile Devices\n
+•	Delivering Different Web Forms\n
+
+Getting started with ASP.net MVC :-\n
+The MVC Pattern\n
+•	Working with Razor \n
+•	Creating the Example Project \n
+           Defining the Model \n
+           Defining the Controller \n
+           Creating the View \n
+•	Working with the Model Object \n
+•	Working with Layouts \n
+           Creating the Layout \n
+           Applying a Layout \n
+           Using a View Start File\n 
+           Demonstrating Shared Layouts\n 
+•	Using Razor Expressions\n
+URL Routing\n
+•	Introducing URL Patterns\n
+•	Creating and Registering a Simple Route\n
+•	Defining Default Values \n
+•	Using Static URL Segments\n
+•	Advanced Routing Features\n
+Controllers and Actions\n
+•	Introducing the Controller\n
+•	Receiving Input\n
+•	Producing Output\n
+Filters\n
+•	Using Authorization Filters\n
+•	Using Exception Filters\n
+•	Using Action Filters\n
+•	Using Result Filters\n
+•	Using Other Filter Features\n
+•	Using the Built-in Filters\n
+Views\n
+•	Creating a Custom View Engine\n
+•	Working with the Razor Engine\n
+•	Adding Dynamic Content to a Razor View\n
+Helper Methods\n
+•	Creating Custom Helper Methods\n
+•	Using the Built-In Form Helper Methods\n
+URL and Ajax Helper Methods\n
+•	Creating Basic Links and URLs\n
+•	Using MVC Unobtrusive Ajax\n
+•	Creating an Unobtrusive Ajax Form\n
+•	Setting Ajax Options\n
+•	Creating Ajax Links\n
+•	Working with Ajax Callbacks\n
+•	Working with JSON\n
+Web API\n
+•	Understanding the Web API\n
+•	Creating the Web API Application\n
+•	Creating the API Controller\n
+•	Understanding How the API Controller Works\n
+•	Writing the JavaScript Code to Use the Web API\n
+
+Handling multimedia using Silverlight and how to capture video and audio to make a video conference applications \n
+
+Makin a real time applications like facebook using SignalR\n
+•	Working with Hubs \n
+•	Working with persistent connections\n
+        \n\n\n\n
+    </string>
+    <string name="android_content">day 1  \n\n
+1 What is Android:\n
+1.1Obtaining the Required Tools (android studio ,sdk)  \n
+1.explain Android component (java,sdk,xml)  \n
+1.3Understanding  Mainfist  \n
+  important of  Permissions  \n
+
+2 Application fundamentals:  \n
+2.1 Activities.  \n
+2.2 User Interface.  \n
+    2.2.1 views\n
+	2.2.2 Declaring Layouts  \n
+	2.2.3 Creating Menus  \n
+	2.2.4 Handling UI Events  \n
+2.3 making design for simple calculator     \n
+	----------------------------------------  \n   \n
+	day 2  \n   \n
+3.1handle events to finish calculator  \n
+3.1Resources  \n
+   3.1.1 Strings  \n
+   3.1.1 Color  \n
+   3.1.1 Style  \n
+   3.1.1 dimension  \n
+   3.1.1 Drawable  \n
+   3.1.1 Layout  \n
+   3.1.1 Animation  \n
+
+3.3 Intents  \n   \n
+3.3 Linking Activities Using Intents  \n
+----------------------  \n   \n
+day 3  \n   \n
+Fragments  \n
+    Creating a Fragment  \n
+	Building a Flexible UI using fragments  \n
+	fragments transaction  \n
+	Communicating with Other Fragments  \n
+
+sqlite   \n
+   Create a Database  \n
+   input,read ,delete,update information from database  \n
+sharedPrefrence  \n
+  dealing with listview   \n
+making contacts  app  \n
+	-----------------------  \n   \n
+	day 4  \n   \n
+third party library  \n
+3.1 what is Api   \n
+     dealing with api  \n
+ 3.2  Web Services use retrofit  \n
+3.3  using ReycleView and dealing with it\'s adapter  \n
+ 3.4 how loading photo from remote server and show in you application
+    using picasso library  \n
+
+	------------  \n   \n
+	day 4  \n   \n
+firebase   \n
+what is firebase   \n
+Creating a Firebase Project  \n
+Reading and Writing using Firebase Realtime Database and Authentication  \n
+Storing Data  \n
+Notifications, Remote Config  \n
+
+-------------------------  \n   \n
+day 5  \n   \n
+start make app using firebase  \n
+(user inteface ,login ,register,store and retrive data)   \n
+
+----------------------------  \n   \n
+day 7  \n   \n
+Async Task    \n
+Services.  \n
+ BroadcastReceivers.  \n
+ ContentProviders.  \n
+what is realtime permission
+Sensors\n
+making push up app  or simple mp3   \n
+
+--------------------\n
+
+day 8  \n
+ how make app alarm   \n
+
+
+ ---------------  \n
+day 9\n
+ Location and Maps  \n
+  Google Maps  \n
+  get current user location using GPS  \n
+  interacting with map   \n
+  drawing on map   \n
+  marker
+
+making tracker app using firebase and google map  \n
+  -----------------  \n   \n
+  day 10,11,12  \n
+make final project (use every thing andd explain another component )
+
+final day   \n
+reparing to publish:  \n
+  Signing Application.  \n
+  Versioning Application.\n
+  uploading to google store \n\n\n\n\n </string>
+
+<string name="php_content">codeigniter framework course
+content  \n
+1-intro to mvc codeignter frameword \n
+2-dealing with views and models and urls \n
+3-dealing with databases and crud \n
+4-constructror and security in condeigniter \n
+5-libraries , helpers and regular queries \n
+6-form validation and query helper \n
+7-session and cookies \n
+8-file uploading \n
+9,10,11,12- final projects and best project will be Evaluation \n\n\n\n\n\n
+</string>
+<string name="webdesign_content">day 1 \n \n
+
+1 HTML \n \n
+1.1 introduction \n
+1.2 what i need\n
+1.3 how to use attributes \n
+1.4 heading \n
+1.5 paragraph \n
+1.6 image  \n
+1.7 head content \n
+1.8 comments  \n
+1.9 comparing between block and inline \n
+1.10 what is div  \n
+1.11 lists \n
+1.12 text style \n
+1.13 tables  \n
+    1.13.1 create  simple table  \n
+    1.13.2 control the columns  \n
+1.14 classes \n 
+1.15 forms \n
+    1.15.1 what is form  \n
+    1.15.2 form attributes \n
+    1.15.2 form inputs  \n
+1.16 what is iframe  \n \n
+
+----------------------------------------------- \n \n
+day 2 \n \n
+
+2-CSS \n \n
+
+2.1  introduction  \n
+2.2  how to write \n
+2.3  class and id \n
+2.4  background \n
+2.5  text styling \n
+2.6  fonts \n
+2.7  deal with links \n
+2.8  deal with lists \n
+2.9  box model \n
+2.10 border  \n
+2.11 margin  \n
+2.12 padding  \n
+2.13 width and height  \n
+2.14 display \n
+2.15 position \n
+2.16 float \n
+2.17 selectors \n
+2.18 nesting \n
+2.19 overflow \n
+2.20 compare between display and visibility \n
+2.21 z-index  \n
+2.22 cursor  \n
+2.23 selectors  \n
+2.24 pseudo classes \n
+2.25 media  \n\n
+---------------------------------------------------------  \n \n
+day 3 \n \n
+
+3-HTML5 \n \n
+
+3.1 introduction  \n
+3.2 deprecated tags \n
+3.3 what\'s semantics \n
+3.4 syntax  \n
+3.5 support  \n
+3.6 new tags  \n
+    3.6.1 Header, Nav, Article, Section, Footer  \n
+    3.6.2 Main, Aside \n
+    3.6.3 Progress, Meter \n
+    3.6.4 Details, Mark, Wbr \n
+    3.6.5 Figure, Figcaption \n
+    3.6.6 Time, Dialog, Bdi \n
+3.7 new form elements  \n
+    3.7.1 datalist  \n
+    3.7.2 output \n
+3.8 audio  \n
+3.9 video  \n
+3.10 new form input  \n
+     3.10.1 Color, Range, Number \n
+     3.10.2 Email, Search, Url, Tel \n
+     3.10.3 Time, Date, Month, Week  \n
+3.11 form attributes \n
+     3.11.1 AutoComplete, AutoFocus, NoValidate \n
+     3.11.2 Form [ Action, Method, EncType ]  \n
+     3.11.3 Form [ NoValidate, Target ]   \n
+     3.11.4 Multiple, Placeholder, Required \n
+     3.11.5 Min, Max, Step, Pattern \n
+     3.11.6 Readonly vs Disabled  \n  \n
+
+-------------------------------------------- \n \n
+day 4 \n \n
+
+3.12 canvas \n
+ 
+     3.12.1 introduction \n
+     3.12.2 simple example \n
+     3.12.3 line \n
+     3.12.4 rect \n
+     3.12.5 circle \n
+     3.12.6 text 
+
+3.13 Svg \n
+     3.13.1 introduction \n
+     3.13.2 rect, circle  \n
+     3.13.3 use css \n
+     3.13.4 ellipse, line  \n \n
+ 
+3.14 compare svg,canvas  \n \n
+
+---------------------------------------------- \n \n
+day 5 \n \n 
+
+4-css3 \n
+
+4.1 introduction \n
+4.2 vendor prefixes  \n
+4.3 border radius \n
+4.4 shadow \n
+    4.4.1 box-shadow \n
+    4.4.2 text-shadow \n
+4.5 box-sizing \n
+4.6 text-overflow \n
+4.7 transform 2D  \n \n
+
+    4.7.1 rotate \n
+    4.7.2 scale \n
+    4.7.3 translate \n
+    4.7.4 skew \n
+    4.7.5 matrix \n
+    4.7.6 rotate  \n \n       
+
+4.8 transform 3D  \n 
+    
+    4.8.1 rotate  \n
+    4.8.2 scale \n
+    4.8.3 translate \n
+    4.8.4 perspective \n
+    4.8.5 matrix \n
+    4.8.6 origin \n
+    4.8.7 backface visibility \n
+    4.8.8 flip card \n \n
+------------------------------------------------------------------ \n \n
+day 6  \n \n
+
+4.9  Background New Features \n  
+4.10 Overflow New Features \n  
+4.11 Resize \n  
+4.12 opacity \n
+4.13 flex \n
+     4.13.1 Direction \n
+     4.13.2 Wrap \n
+     4.13.3 flow \n
+     4.13.4 align \n
+     4.13.5 order \n
+     4.13.6 shorthand \n
+4.14 transition \n
+     4.14.1 property \n
+     4.14.2 duration \n
+     4.14.2 timing \n
+     4.14.3 delay \n
+4.15 multi columns \n
+     4.15.1 count, gap \n
+     4.15.2 rule , width \n
+     4.15.3 span , shorthand \n \n
+
+
+----------------------------------------------------------------------  \n \n
+
+day 7 \n \n 
+
+4.16 animation \n 
+ 4.16.1 keyframes \n
+ 4.16.2 name,duration \n
+ 4.16.3 iteration count,direction \n  
+ 4.16.4 delay,fill mode \n
+ 4.16.5 play state \n
+ 4.16.6 shorthand \n
+ 4.16.7 swing dropdown \n
+ 4.16.8 wave audio loading \n
+ 4.16.9 snake loading \n
+ 
+4.17 selectors \n \n
+ 4.17.1 next,start with,end with , contains \n
+ 4.17.2 checked,enabled,disabled,empty \n
+ 4.17.3 not,last child \n
+ 4.17.4 only child,selection \n
+ 4.17.5 \n
+4.18 font face \n
+4.19 Media Queries \n \n
+
+5 java script \n \n
+
+5.1 Introduction and What\'s JavaScript \n
+5.2 What I Need To Learn JavaScript \n
+5.3 How To Work With Chrome Console \n
+5.4 Where To Put JavaScript Code \n
+5.5 JavaScript Syntax \n
+5.6 JavaScript Comments \n
+5.7 Variables \n
+5.8 Data Type \n
+5.9 Concatenation \n
+5.10 Output \n \n
+
+----------------------------------------------------------------
+day 8 \n \n
+
+5.11 JavaScript Operators \n
+5.12 If, Else If, Else Conditions \n
+5.13 Conditional Operators \n
+5.14 Logical Operators \n
+5.15 functions \n
+
+     5.15.1 Basic \n
+     5.15.2 Return \n
+     5.15.3 With Parameters \n
+     5.15.4 Advanced And Self Invoke \n
+
+5.16 Switch, Case, Break \n
+5.17 Scope \n
+5.18 events \n
+
+5.19 array  \n \n
+
+------------------------------------------------------------------- \n
+day 9 \n \n
+
+5.20 string methods \n
+
+5.21 loops \n
+     5.21.1 for \n
+     5.21.2 for in \n
+     5.21.3 while \n
+     
+5.22 math \n
+     5.22.1 floor \n
+     5.22.2 round \n
+     5.22.3 random \n
+
+5.23 regular expression  \n
+5.24 date \n
+5.25 numbers \n
+
+6 javascript dom \n \n
+
+6.1 Find Elements By [ ID, Class, Tag ] \n
+6.2 Get, Set Element Content \n
+6.3 Get, Set Attribute Value \n
+6.4 GetAttribute, SetAttribute \n
+6.5 HasAttribute, RemoveAttribute \n
+6.6 classlist \n
+    6.6.1 ClassList [ Item, Contains, Length ] \n
+    6.6.2 ClassList [ Add, Remove, Toggle ] \n
+6.7 children \n
+    6.7.1 First and Last Child [ Element ] \n
+    6.7.2 Append Child \n
+    6.7.3 Remove Child \n
+6.8 Node [ Name, Value, Type ] \n
+
+6.9 Focus, Blur \n
+6.10 Click \n \n
+     
+
+---------------------------------------------------------------------
+day 10 \n
+6.11 Style \n
+6.12 document \n
+     6.12.1 Document - Create [ Element, Text, Comment ] \n
+     6.12.2 Create Attribute \n
+6.13 events \n
+     6.13.1 Onload, Onscroll, Onresize \n
+     6.13.2 Onfocus, OnBlur, OnSubmit \n
+     6.13.3 OnClick, OnDblClick, OnMousEnter \n
+     6.13.4 OnKey [ Up, Down, Press ] \n
+
+     
+7 javascript bom \n \n
+
+7.1 Intro and What is BOM? \n
+7.2 Window Methods  \n
+    7.2.1 Alert, Prompt, Confirm \n
+    7.2.2 setTimeout \n
+    7.2.3 setInterval \n
+    7.2.4 Open \n
+    7.2.5 scrollBy, scrollTo \n
+    7.2.6 Stop, Close, Focus \n
+    7.2.7 innerHeight, innerWidth \n
+    7.2.8 Href \n
+7.3 location \n
+    7.3.1 Host, Hash \n
+    7.3.2 Protocol, Search, Pathname \n
+    7.3.3 Reload, Replace, Assign \n
+7.4 History Methods - Back, Forward, Go \n
+7.5 Window Navigator Properties \n
+7.6 Window Screen Properties \n \n
+----------------------------------------------------------------------------- \n
+day 11 \n \n
+
+8 bootstrap \n
+
+8.1 Introduction \n
+8.2 Include It \n
+8.3 Grid System \n
+    8.3.1 Hidden / Visible \n
+    8.3.2 Column Reset \n
+    8.3.3 Column Offset \n
+    8.3.4 Column Ordering \n
+8.4 Navbar \n
+8.5 Carousel \n
+8.6 Adding Font Awesome \n
+8.7 Using Google Fonts \n
+8.8 Media Query \n
+8.9 Using WOW Js \n
+------------------------------------------------ \n
+day 12 \n
+
+9 creating a responsive  website with bootstrap   \n \n
+ 
+  \n\n\n\n\n</string>
+
+
 </resources>

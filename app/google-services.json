@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "42485548596",
+    "firebase_url": "https://smart-ware-b2fe6.firebaseio.com",
+    "project_id": "smart-ware-b2fe6",
+    "storage_bucket": "smart-ware-b2fe6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42485548596:android:8315644311fa455b",
+        "android_client_info": {
+          "package_name": "com.m_eldeeb.smartware"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "42485548596-615ujbtpvsqjb7r9j6frngcbsbdhjgfk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb3FMECh6K9SrRXGmyCsamoDrhrtbJD_M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

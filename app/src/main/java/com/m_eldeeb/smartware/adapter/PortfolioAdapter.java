@@ -5,21 +5,29 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.m_eldeeb.smartware.interfaces.Communication;
 import com.m_eldeeb.smartware.R;
+import com.m_eldeeb.smartware.models.PortfolioModel;
+import com.squareup.picasso.Picasso;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by melde on 8/7/2017.
  */
 
-public class PortfolioAdapter extends RecyclerView.Adapter<PortfolioAdapter.ViewHolder> {
+public class
+PortfolioAdapter extends RecyclerView.Adapter<PortfolioAdapter.ViewHolder> {
     private Context context;
+Communication con;
+List<PortfolioModel>list=new ArrayList<>();
 
-
-
-    public PortfolioAdapter(Context c) {
-
+    public PortfolioAdapter(Context c, List<PortfolioModel> portfolioList) {
+        list=portfolioList;
         this.context = c;
     }
 
@@ -33,33 +41,38 @@ public class PortfolioAdapter extends RecyclerView.Adapter<PortfolioAdapter.View
 
     @Override
     public void onBindViewHolder(PortfolioAdapter.ViewHolder holder, int position) {
-      /*  holder.name.setText(marketList.get(position).getMarketName());
 
-        holder.logo.setImageResource(marketList.get(position).getImage());*/
+
+try {
+
+
+    Picasso.with(context)
+            .load(String.valueOf(list.get(position).getLogo())).fit()
+            .into(holder.logo);
+}
+catch (Exception e){}
     }
 
     @Override
     public int getItemCount() {
-        return 6;
+        return list.size();
     }
 
     class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
-        TextView title;
-
-        TextView desc;
-
+        ImageView logo;
         public ViewHolder(View itemView) {
             super(itemView);
-
+            con= (Communication) context;
+            logo= (ImageView) itemView.findViewById(R.id.logo);
             itemView.setOnClickListener(this);
-
 
         }
 
         @Override
         public void onClick(View v) {
             int adapterPosition = getAdapterPosition();
+            con.onClick(list.get(adapterPosition));
 
         }
     }

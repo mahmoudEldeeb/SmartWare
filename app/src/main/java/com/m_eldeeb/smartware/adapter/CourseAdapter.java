@@ -1,13 +1,19 @@
 package com.m_eldeeb.smartware.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.m_eldeeb.smartware.interfaces.Communication;
 import com.m_eldeeb.smartware.R;
+
+import java.util.List;
 
 /**
  * Created by melde on 8/7/2017.
@@ -15,17 +21,17 @@ import com.m_eldeeb.smartware.R;
 
 public class CourseAdapter extends RecyclerView.Adapter<CourseAdapter.ViewHolder> {
     private Context context;
+Communication con;
+List<Integer>list;
 
-
-
-    public CourseAdapter(Context c) {
-
+    public CourseAdapter(Context c, List<Integer> courses) {
+list=courses;
         this.context = c;
     }
 
     @Override
     public CourseAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View row = LayoutInflater.from(parent.getContext()).inflate(R.layout.portfolio_item, parent, false);
+        View row = LayoutInflater.from(parent.getContext()).inflate(R.layout.course_item, parent, false);
         CourseAdapter.ViewHolder holder = new CourseAdapter.ViewHolder(row);
         return holder;
 
@@ -33,25 +39,22 @@ public class CourseAdapter extends RecyclerView.Adapter<CourseAdapter.ViewHolder
 
     @Override
     public void onBindViewHolder(CourseAdapter.ViewHolder holder, int position) {
-      /*  holder.name.setText(marketList.get(position).getMarketName());
 
-        holder.logo.setImageResource(marketList.get(position).getImage());*/
+        holder.logo.setImageResource(list.get(position));
     }
 
     @Override
     public int getItemCount() {
-        return 6;
+        return list.size();
     }
 
     class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
-        TextView title;
-
-        TextView desc;
-
+ImageView logo;
         public ViewHolder(View itemView) {
             super(itemView);
-
+con= (Communication) context;
+            logo= (ImageView) itemView.findViewById(R.id.logo);
             itemView.setOnClickListener(this);
 
 
@@ -60,6 +63,8 @@ public class CourseAdapter extends RecyclerView.Adapter<CourseAdapter.ViewHolder
         @Override
         public void onClick(View v) {
             int adapterPosition = getAdapterPosition();
+            Log.v("fff","fff")
+;        con.onClick(adapterPosition);
 
         }
     }
